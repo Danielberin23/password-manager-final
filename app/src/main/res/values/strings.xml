@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">password-manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Password-manager</string>
+    <string name="nav_header_subtitle">dberin2@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Passwords</string>
+    <string name="menu_gallery">Wifi</string>
+    <string name="menu_slideshow">Social</string>
+    <string name="fab">add</string>
+    <string name="title_activity_login">login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_record">add</string>
+    <string name="provider">Provider</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="btn_update">update</string>
+    <string name="btn_delete">delete</string>
+</resources>

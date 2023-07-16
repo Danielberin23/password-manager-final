@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/prov_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_view_size"
+            android:gravity="center"
+            android:text="@string/provider"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="@dimen/text_medium_size"
+            tools:ignore="SpUsage" />
+
+        <Spinner
+            android:id="@+id/provider_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/add_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:maxLength="32"
+        android:layout_margin="5dp"
+        android:textStyle="normal"
+        android:autofillHints="">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/add_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_margin="5dp"
+        android:textStyle="normal"
+        android:autofillHints="" />
+
+    <CheckBox
+        android:id="@+id/add_show_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:checked="false"
+        android:text="@string/show_password" />
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:background="@drawable/btn_shape_capsule_safe"
+
+        android:text="@string/add_record"
+        android:textColor="@color/white" />
+
+</LinearLayout>
